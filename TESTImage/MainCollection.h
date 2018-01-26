@@ -1,0 +1,16 @@
+//
+//  MainCollection.h
+//  TESTImage
+//
+//  Created by shenzhenshihua on 2018/1/26.
+//  Copyright © 2018年 shenzhenshihua. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface MainCollection : UICollectionView
+
+- (void)difficulty:(NSInteger)diff dataSource:(NSArray *)dataSource;
+- (void)initCollcetion:(NSArray *)dataSource;
+- (void)resetAngle;
+@end
